@@ -119,6 +119,7 @@ margin-left: 0;
   background-color: #f5ea51;
   margin: 0;
   border: 0;
+  height: 64px;
 }
 
 .navbar-default .navbar-nav>li>a {
@@ -126,7 +127,7 @@ margin-left: 0;
   font-family: Ubuntu,sans-serif;
   padding-left: 20px;
   padding-right: 20px;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus {
@@ -164,7 +165,7 @@ margin-left: 0;
 
 .navbar-default .navbar-brand {
   color: #FFFFFF;
-  margin-top: 10px !important;
+  margin-top: 7px !important;
   padding-top: 0px !important;
 }
 
@@ -182,6 +183,10 @@ margin-left: 0;
 .navbar-nav>li>a {
   padding-top: 22px;
   padding-bottom: 22px;
+}
+
+.navbar-collapse {
+  background-color: #f5ea50;
 }
 
 #search-form { color: #fff; }
@@ -774,10 +779,10 @@ a.v_highlight_more {
     width: auto;
   }
   #wrap>.container {
-    padding: 50px 15px 0;
+    padding: 64px 15px 0;
   }
   #ngProgress-container {
-    top: 50px;
+    top: 63px;
   }
   body {
     font-size: 11px;
