@@ -1,8 +1,8 @@
 {
-  "name": "insight-ui-dash",
-  "description": "An open-source frontend for the Insight API. The Insight API provides you with a convenient, powerful and simple way to query and broadcast data on the Dash network and build your own services with it.",
+  "name": "insight-pac-ui",
+  "description": "An open-source frontend for the Insight-PAC API. The Insight-PAC API provides you with a convenient, powerful and simple way to query and broadcast data on the $PAC network and build your own services with it.",
   "version": "0.4.3",
-  "repository": "git://github.com/dashpay/insight-ui-dash.git",
+  "repository": "git://github.com/PACCommunity/insight-pac-ui.git",
   "contributors": [
     {
       "name": "Matias Alejo Garcia",
@@ -26,32 +26,31 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/dashpay/insight-ui-dash/issues"
+    "url": "https://github.com/PACCommunity/insight-pac-ui/issues"
   },
-  "homepage": "https://github.com/dashpay/insight-ui-dash",
+  "homepage": "https://github.com/PACCommunity/insight-pac-ui",
   "license": "MIT",
   "keywords": [
     "insight",
     "blockchain",
     "blockexplorer",
-    "dash",
-    "bitcore-dash",
+    "PAC",
+    "bitcore-pac",
     "front-end"
   ],
-  "bitcoreNode": "bitcore-node-dash",
-  "dependencies": {
-  },
+  "bitcoreNode": "bitcore-node-pac",
+  "dependencies": {},
   "devDependencies": {
     "bower": "~1.2.8",
-    "grunt": "~0.4.2",
+    "grunt": "^0.4.5",
+    "grunt-angular-gettext": "^0.2.15",
     "grunt-cli": "~0.1.11",
-    "grunt-contrib-jshint": "~0.8.0",
     "grunt-contrib-concat": "~0.3.0",
+    "grunt-contrib-jshint": "~0.8.0",
     "grunt-contrib-uglify": "~0.3.2",
     "grunt-contrib-watch": "*",
-    "grunt-macreload": "*",
     "grunt-css": "~0.5.4",
-    "grunt-markdown": "~0.5.0",
-    "grunt-angular-gettext": "^0.2.15"
+    "grunt-macreload": "*",
+    "grunt-markdown": "~0.5.0"
   }
 }
