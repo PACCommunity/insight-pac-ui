@@ -6,14 +6,14 @@
 html,
 body {
   color: #373D42;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   height: 100%;
   /* The html and body elements cannot have any padding or margin. */
 }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #373D42;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak],
@@ -24,7 +24,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 /* Styling for the ngProgress itself */
 #ngProgress {
-  background-color: #295b85 !important;
+  background-color: #777 !important;
   box-shadow: none !important;
   color: #373D42 !important;
   height: 3px !important;
@@ -116,16 +116,17 @@ margin-left: 0;
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {background-color: #373D42;}
 
 .navbar-default {
-  background-color: #1d71b8;
+  background-color: #f5ea51;
   margin: 0;
   border: 0;
 }
 
 .navbar-default .navbar-nav>li>a {
-  color: #cfe3f4;
-  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+  font-family: Ubuntu,sans-serif;
   padding-left: 20px;
   padding-right: 20px;
+  font-weight: bold;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus {
@@ -134,7 +135,7 @@ margin-left: 0;
 }
 
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>.active>a:hover {
-  background-color: #fff;
+  background-color: #fff67b;
 }
 
 .navbar-form .form-group {
@@ -150,7 +151,7 @@ margin-left: 0;
 }
 
 .insight {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-size: 40px;
   font-style: italic;
   font-weight: 700;
@@ -163,11 +164,12 @@ margin-left: 0;
 
 .navbar-default .navbar-brand {
   color: #FFFFFF;
-  padding: -40px 15px;
+  margin-top: 10px !important;
+  padding-top: 0px !important;
 }
 
 .navbar-form .form-control {
-  background-color: #1d71b8;
+  background-color: #545454;
   border-radius: 3px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -203,21 +205,21 @@ margin-left: 0;
 
 #search::-webkit-input-placeholder {
   color: #CFE3F4;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-style: italic;
   font-weight: 100;
 }
 
 #search::-moz-placeholder {
   color: #CFE3F4;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 100;
 }
 
 .status {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
-  background-color: #345672;
+  background-color: #545454;
   border-radius: 3px;
   margin: 15px 0;
   padding: 8px 10px;
@@ -761,6 +763,7 @@ a.v_highlight_more {
     font-size: 40px;
   }
   .navbar-default .navbar-nav>li>a {
+    color: #000000;
     padding-left: 15px;
     padding-right: 15px;
   }
