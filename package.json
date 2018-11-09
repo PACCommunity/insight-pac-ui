@@ -1,7 +1,7 @@
 {
   "name": "insight-pac-ui",
   "description": "An open-source frontend for the Insight-PAC API. The Insight-PAC API provides you with a convenient, powerful and simple way to query and broadcast data on the $PAC network and build your own services with it.",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "repository": "git://github.com/PACCommunity/insight-pac-ui.git",
   "contributors": [
     {
